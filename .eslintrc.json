@@ -68,7 +68,7 @@
               // Packages. `react` related packages come first.
               ["^react", "^@?\\w"],
               // Internal packages.
-              ["^(helpers|context|pages)(/.*|$)"],
+              ["^(helpers|context|pages|styles)(/.*|$)"],
               // Components.
               ["^components(/.*|$)"],
               // Side effect imports.
