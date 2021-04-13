@@ -40,7 +40,7 @@ const GlobalStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
-  html, body, .__next {
+  #__next {
     height: 100%;
   }
 
@@ -49,6 +49,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
+    height: 100vh;
     font-family: 'Neue Haas Unica', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 `;
